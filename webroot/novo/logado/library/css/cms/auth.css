@@ -1,0 +1,71 @@
+/* 
+    Document   : auth
+    Created on : 07/04/2011, 07:16:20
+    Author     : Leandro
+    Description:
+        Stylesheet for login form.
+*/
+
+body, html
+{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background-color: #444;
+}
+
+/* LOGIN */
+#login
+{
+    background-color: #FFF;
+    border: #000 2px solid;
+    width: 400px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    margin-top: -175px;
+    margin-left: -200px;
+    position: absolute;
+}
+
+#login .logo
+{
+    background-image: url(../../images/cms/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 143px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#login form
+{
+    font-family: Verdana, Geneva, sans-serif;
+    width: 360px;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #F2F2F2;
+}
+
+#login form span
+{
+    display: block;
+    margin-top: 10px;
+}
+
+#login form input
+{
+    width: 340px;
+    border: #CCC 1px solid;
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+}
+
+#login form .bt-submit
+{
+    width: 65px;
+    height: 26px;
+    float: right;
+    margin: 20px 9px auto;
+}

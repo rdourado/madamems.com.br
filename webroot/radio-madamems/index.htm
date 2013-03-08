@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+
+<title>Radio Madame Ms</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="skin/black/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<script type="text/javascript" src="http://madamems.com.br/radio-madamems/js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="http://madamems.com.br/radio-madamems/js/jplayer.playlist.min.js"></script>
+<script type="text/javascript" src="http://echo.gomus.com.br/player/mb.js?id=1735868145" ></script>
+
+<script type="text/javascript">
+$(function() {
+  if(window._gomus) {
+    new jPlayerPlaylist({
+      jPlayer: "#jquery_jplayer_1",
+      cssSelectorAncestor: "#jp_container_1"
+    }, _gomus.songs, {
+      swfPath: "http://www.jplayer.org/latest/js",
+      supplied: "mp3",
+      wmode: "window"
+    });
+  } else {
+   //erro
+   $("#player").remove();
+   $("#player-container").remove();
+  } 
+});
+</script>
+</head>
+<body>
+
+
+		<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+
+		<div id="jp_container_1" class="jp-audio">
+			<div class="jp-type-playlist">
+				<div class="jp-gui jp-interface">
+					<ul class="jp-controls">
+						<li><a href="javascript:;" class="jp-previous" tabindex="1">previous</a></li>
+						<li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+						<li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+						<li><a href="javascript:;" class="jp-next" tabindex="1">next</a></li>
+						<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+						<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+					</ul>
+					<ul class="jp-toggles">
+						<li><a href="javascript:;" class="jp-shuffle" tabindex="1" title="shuffle">shuffle</a></li>
+						<li><a href="javascript:;" class="jp-shuffle-off" tabindex="1" title="shuffle off">shuffle off</a></li>
+					</ul>
+				</div>
+				<div class="jp-playlist">
+					<ul>
+						<li></li>
+					</ul>
+				</div>
+				
+				
+                <a href="http://www.gomus.com.br/" class="gomus" target="_blank"></a>
+				<div class="jp-no-solution">
+					<span>Update Required</span>
+					To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+				</div>
+				
+		</div>
+        </div><!--content-player-->
+</body>
+
+</html>

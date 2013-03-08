@@ -1,0 +1,42 @@
+11-03-2013 18:50:38 - ERROR - 14769360 - Can't DROP 'name'; check that column/key exists
+11-03-2013 18:50:38 - ERROR - 14769864 - Table 'wordpress.madamems_newsletter' doesn't exist
+11-03-2013 18:50:38 - ERROR - 14770320 - Table 'wordpress.madamems_newsletter' doesn't exist
+11-03-2013 18:50:55 - ERROR - 15054544 - Duplicate column name 'message'
+11-03-2013 18:50:55 - ERROR - 15055024 - Duplicate column name 'message_text'
+11-03-2013 18:50:55 - ERROR - 15055552 - Duplicate column name 'subject'
+11-03-2013 18:50:55 - ERROR - 15056016 - Duplicate column name 'type'
+11-03-2013 18:50:55 - ERROR - 15056544 - Duplicate column name 'created'
+11-03-2013 18:50:55 - ERROR - 15057088 - Duplicate column name 'status'
+11-03-2013 18:50:55 - ERROR - 15057480 - Duplicate column name 'total'
+11-03-2013 18:50:55 - ERROR - 15057968 - Duplicate column name 'last_id'
+11-03-2013 18:50:55 - ERROR - 15058496 - Duplicate column name 'sent'
+11-03-2013 18:50:55 - ERROR - 15058984 - Duplicate column name 'send_on'
+11-03-2013 18:50:55 - ERROR - 15059472 - Duplicate column name 'track'
+11-03-2013 18:50:55 - ERROR - 15059952 - Duplicate column name 'editor'
+11-03-2013 18:50:55 - ERROR - 15060432 - Duplicate column name 'sex'
+11-03-2013 18:50:55 - ERROR - 15060888 - Duplicate column name 'query'
+11-03-2013 18:50:55 - ERROR - 15061384 - Duplicate column name 'preferences'
+11-03-2013 18:50:55 - ERROR - 15061840 - Duplicate column name 'options'
+11-03-2013 18:50:55 - ERROR - 15062288 - Can't DROP 'name'; check that column/key exists
+11-03-2013 19:06:26 - ERROR - 11735608 - Blocked by transient newsletter_main_engine set 215 seconds ago
+11-03-2013 19:42:47 - ERROR - 11743456 - Blocked by transient newsletter_main_engine set 200 seconds ago
+11-03-2013 20:07:33 - ERROR - 11743568 - Blocked by transient newsletter_main_engine set 108 seconds ago
+11-03-2013 20:23:29 - ERROR - 11743840 - Blocked by transient newsletter_main_engine set 233 seconds ago
+11-03-2013 21:02:17 - ERROR - 11742032 - Blocked by transient newsletter_main_engine set 201 seconds ago
+11-03-2013 21:21:34 - ERROR - 11742032 - Blocked by transient newsletter_main_engine set 204 seconds ago
+11-03-2013 21:31:51 - ERROR - 11742032 - Blocked by transient newsletter_main_engine set 183 seconds ago
+11-03-2013 21:52:43 - ERROR - 11742032 - Blocked by transient newsletter_main_engine set 191 seconds ago
+11-03-2013 22:01:57 - ERROR - 11742032 - Blocked by transient newsletter_main_engine set 53 seconds ago
+12-03-2013 13:56:43 - ERROR - 11741776 - Blocked by transient newsletter_main_engine set 112 seconds ago
+12-03-2013 15:02:40 - ERROR - 11741848 - Blocked by transient newsletter_main_engine set 189 seconds ago
+12-03-2013 15:11:39 - ERROR - 11741848 - Blocked by transient newsletter_main_engine set 155 seconds ago
+12-03-2013 15:52:26 - ERROR - 11742872 - Blocked by transient newsletter_main_engine set 236 seconds ago
+12-03-2013 16:31:58 - ERROR - 11743056 - Blocked by transient newsletter_main_engine set 78 seconds ago
+12-03-2013 16:41:30 - ERROR - 11743056 - Blocked by transient newsletter_main_engine set 39 seconds ago
+12-03-2013 19:01:32 - ERROR - 13153176 - Blocked by transient newsletter_main_engine set 227 seconds ago
+12-03-2013 19:16:27 - ERROR - 13153176 - Blocked by transient newsletter_main_engine set 237 seconds ago
+12-03-2013 19:46:34 - ERROR - 13153176 - Blocked by transient newsletter_main_engine set 222 seconds ago
+12-03-2013 20:17:50 - ERROR - 13154736 - Blocked by transient newsletter_main_engine set 142 seconds ago
+12-03-2013 20:41:34 - ERROR - 13158328 - Blocked by transient newsletter_main_engine set 115 seconds ago
+12-03-2013 21:01:47 - ERROR - 13158560 - Blocked by transient newsletter_main_engine set 112 seconds ago
+12-03-2013 21:16:37 - ERROR - 13159056 - Blocked by transient newsletter_main_engine set 100 seconds ago

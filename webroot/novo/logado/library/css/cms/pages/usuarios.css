@@ -1,0 +1,46 @@
+#content .form span
+{
+    display:block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+	#content .form input[type="text"], #content .form input[type="password"]
+	{
+	    font-family: Verdana, Geneva, sans-serif;
+	    font-size: 12px;
+	    width: 410px;
+	    border: #CCC 1px solid;
+	    margin: 5px 0px 5px 0px;
+	    padding: 5px;
+	}
+
+	#content .form input[type=radio]
+	{
+	    margin: 0px;
+	    padding: 0px;
+	    display: inline-block;
+	    float: left;
+	}
+
+	#content .form .options
+	{
+	    margin-top: 15px;
+	}
+
+		#content .form .options label
+		{
+		    margin-left: 5px;
+		    padding: 0px;
+		    line-height: 10px;
+		    display: inline-block;
+		}
+
+	#content .form select
+	{
+	    width: 420px;
+	    border: #CCC 1px solid;
+	    margin: 5px 0px 5px 0px;
+	    padding: 5px;
+	}

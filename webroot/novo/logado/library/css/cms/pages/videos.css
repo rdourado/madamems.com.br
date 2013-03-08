@@ -1,0 +1,129 @@
+/* 
+    Document   : ambientes.css
+    Created on : 16/04/2011, 15:31:42
+    Author     : Leandro
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#content .image-field
+{
+    width: 240px;
+    height: 320px;
+    margin: 0 15px;
+}
+
+/* UPLOAD POP-UP */
+#gallery-upload {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#gallery-upload .bg {
+    background-color: #000;
+    opacity:0.80;
+    -moz-opacity: 0.80;
+    filter: alpha(opacity=80);
+    width: 100%;
+    height: 100%;
+}
+
+#gallery-upload .button-close {
+    background: url("../../../images/cms/button-close.gif") no-repeat scroll 0 0 transparent;
+    float:left;
+    height:11px;
+    overflow:hidden;
+    position:absolute;
+    right:5px;
+    text-indent:-2000px;
+    top:5px;
+    width:11px;
+    z-index:1;
+}
+#gallery-upload .divider
+{
+    clear: both;
+    display: block;
+    border: #CCC 1px dotted;
+    width: 500px;
+    margin: 15px 0px 15px 0px;
+}
+
+#gallery-contents {
+    background-color: #FFF;
+    width: 550px;
+    height: 800px;
+    height:auto !important;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -400px;
+    margin-left: -275px;
+    padding: 25px;
+    border: 2px solid #000;
+}
+
+#gallery-contents span.label {
+    display: block;
+    width: 550px;
+    margin-bottom: 5px;
+}
+#gallery-contents span.title {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+#gallery-contents span.subtitle {
+    margin-bottom: 5px;
+    display: block;
+}
+
+#gallery-contents .fieldImage
+{
+    margin-top: 5px;
+    width: 384px;
+    height: 218px;
+    margin: 5px 0px 5px 0px;
+    float: right;
+    border: dashed 1px #BBBBBB;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#gallery-contents .fieldIcon
+{
+    margin-top: 5px;
+    width: 110px;
+    height: 73px;
+    margin: 5px 0px 5px 0px;
+    float: right;
+    border: dashed 1px #BBBBBB;
+    padding: 0px;
+}
+
+#gallery-contents .separator
+{
+        clear: both;
+        width: 550px;
+        height: 11px;
+        border-bottom: 1px dashed #ccc;
+        margin-bottom: 10px;
+}
+
+.cke_skin_kama {
+    width: 550px !important;
+}
+
+#video
+{
+	width: 320px;
+	height: 240px;
+	background-color: black;
+	margin: 20px auto;
+}

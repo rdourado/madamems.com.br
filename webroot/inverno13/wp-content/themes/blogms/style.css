@@ -1,0 +1,61 @@
+/*
+Theme Name: Madame MS 2013
+Theme URI: http://kokfashionlab.com.br
+Author: Mg Studio / KOK Fashion Lab
+Author URI: http://mgstudio.com.br
+*/
+a:link, a:visited{text-decoration:none;}
+a:hover, a:active{text-decoration:underline;}
+body{background:#cdc3aa;font-family:Arial;margin:0;}
+div{margin:auto;position:relative;}
+img{border:none;}
+
+#theContainer{background:#fff;height:auto;width:1001px;}
+#shadow-effect{background:url(images/background-shadow-effect.jpg) repeat-y;height:50px;left:-17px;position:absolute;top:0;width:1039px;}
+
+
+#conteiner_main-menu{background:#161616;font-family:Arial;font-size:14px;padding:16px 0 16px 0;text-align:center;}
+#conteiner_main-menu a:link, #conteiner_main-menu a:visited{color:#cdc3aa;margin-right:50px;}
+/* Opacity effect. */
+/*#conteiner_main-menu a:link{opacity:0.50;-moz-opacity:0.50;filter:alpha(opacity=50);}*/
+#container_top-image{}
+
+#container_posts{background:#fff;float:left;margin:30px 0 10px 16px;padding:8px;width:636px;}
+#container_right-bar{float:right;margin:10px 17px 10px 0;width:300px;}
+#container_pagination{background:#000;color:#b74b4b;float:left;font-size:18px;margin:5px 0 0 16px;padding:8px 0 8px 0;text-align:right;width:654px;}
+#container_pagination a:link, #container_pagination a:visited{color:#fff;margin:0 10px 0 10px;}
+.current{margin:0 10px 0 10px;}
+
+#container_footer{background:#000;color:#fff;height:225px;margin-top:35px;padding:20px 0 15px 0;}
+#container_most-read{font-size:18px;width:925px;}
+
+.widget-header{background:#000;color:#fff;font-family:'Quicksand', sans-serif;font-size:18px;padding:15px 0 10px 0;text-align:center;}
+
+/* Post classes. */
+.post-unit{background:#fff;border:1px solid #eeeded;margin-bottom:20px;padding:30px;}
+.post-date{color:#b74b4b;font-size:12px;}
+.post-title{font-size:21px;font-family:'Quicksand', sans-serif;text-transform:uppercase;}
+.post-title a:link, .post-title a:visited{color:#3e3e3e;}
+.post-text{color:#636363;font-size:13px;overflow:hidden !important;}
+.post-text img, .post-text a img, .post-text p a img{max-width:622px !important;}
+.post-social-footer{background:#fff;padding:8px 20px 8px 20px;}
+.post-tags{background:#fff;color:#8b8a8a;font-size:12px;padding:15px 30px 8px 30px;}
+.post-tags a:link, a:visited{color:#8b8a8a;}
+
+.tags-widget a:link, .tags-widget a:hover, .tags-widget a:visited{color:#5d5d5d;}
+
+.arquive-links ul, .archive-links ul li{margin:0;padding:0;list-style:none;}
+.archive-links ul li ul{margin-left:5px;padding:0;list-style:none;}
+.archive-links ul li a, .archive-links ul li ul li a{color:#3e3e3e;}
+.flexo-list, .flexo-link li a{color:#3e3e3e;}
+
+#post-footer-center{margin:auto;width:900px;}
+.post-thumb{height:75px;float:left;margin:0 20px 0 25px;width:75px;}
+.post-excerpt{color:#636363;font-size:12px;float:left;width:170px;}
+.post-excerpt p{margin:0;padding:0;}
+
+#social-icons{height:20px;position:absolute;top:10px;right:10px;width:90px;}
+#social-icons a{margin-right:5px;}
+.img-icon{height:20px;width:20px;}
+
+.widget-container{border:1px solid #f0eee8;margin-bottom:15px;padding:3px;}

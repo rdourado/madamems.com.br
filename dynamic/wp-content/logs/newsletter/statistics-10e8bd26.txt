@@ -1,0 +1,14 @@
+11-03-2013 18:50:53 - ERROR - 15040736 - Table 'wordpress.madamems_newsletter_stats' doesn't exist
+11-03-2013 18:50:53 - ERROR - 15041264 - Table 'wordpress.madamems_newsletter_stats' doesn't exist
+11-03-2013 18:50:53 - ERROR - 15041824 - Table 'wordpress.madamems_newsletter_stats' doesn't exist
+11-03-2013 18:50:54 - ERROR - 15042248 - Duplicate column name 'user_id'
+11-03-2013 18:50:56 - ERROR - 15091784 - Unknown column 'newsletter_id' in 'madamems_newsletter_stats'
+11-03-2013 18:50:56 - ERROR - 15092312 - Unknown column 'newsletter_id' in 'madamems_newsletter_stats'
+11-03-2013 18:50:56 - ERROR - 15092856 - Unknown column 'date' in 'madamems_newsletter_stats'
+11-03-2013 18:50:56 - ERROR - 15093184 - Duplicate column name 'user_id'
+11-03-2013 18:50:56 - ERROR - 15093688 - Duplicate column name 'email_id'
+11-03-2013 18:50:56 - ERROR - 15094144 - Duplicate column name 'link_id'
+11-03-2013 18:50:56 - ERROR - 15094616 - Duplicate column name 'user_id'
+11-03-2013 18:50:56 - ERROR - 15095160 - Duplicate column name 'created'
+11-03-2013 18:50:56 - ERROR - 15095608 - Duplicate column name 'url'
+11-03-2013 18:50:56 - ERROR - 15096104 - Duplicate column name 'anchor'

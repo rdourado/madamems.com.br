@@ -1,0 +1,130 @@
+/* LIST */
+#content .list
+{
+    width: 740px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+#content .list .phrase
+{
+    width: 710px;
+    background-color: #FFFFFF;
+    margin-top: 5px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    color: #444444;
+    border-bottom: 1px solid #CCCCCC;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+#content .list .phrase .name
+{
+    color: #999;
+    font-style: italic;
+}
+#content .list .phrase .details
+{
+    float: left;
+    display: block;
+    margin-left: 10px;
+}
+
+#content .list .phrase .details span
+{
+    font-weight: normal;
+    width: 470px;
+    display: block;
+}
+#content .list .phrase .details span a
+{
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 3px;
+    text-decoration: none;
+}
+#content .list .phrase .details span a:hover
+{
+    color: #000000;
+}
+#content .list .phrase .details span.content
+{
+    padding-top: 5px;
+    line-height: 16px;
+}
+#content .list .phrase .details span.date
+{
+    padding-top: 20px;
+    line-height: 16px;
+    color: #999999;
+    font-size: 10px;
+}
+
+#content .list button 
+{
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border: 0;
+    text-indent: -5000px;
+}
+#content .list button.disabled
+{
+    opacity:0.1;
+    -moz-opacity: 0.1;
+    filter: alpha(opacity=10);
+    cursor: default !important;
+}
+#content .list button.up
+{
+    background: url(../../../images/cms/thumbsUp.jpg) no-repeat 0 0;
+    right: 50px;
+}
+#content .list button.down
+{
+    background: url(../../../images/cms/thumbsDown.jpg) no-repeat 0 0;
+    right: 10px;
+}
+
+#content .list button:hover 
+{
+    background-color: #999;
+    color: #FFF;
+}
+#content .list li .move
+{
+    cursor: move;
+    margin: 5px 0px 0px 5px;
+}
+
+#content .list li label
+{
+    position: absolute;
+    margin: 13px;
+    text-decoration: none;
+    color: #666;
+}
+
+#content .list li label a
+{
+    text-decoration: none;
+    color: #666;
+}
+
+#content .list li label a:hover
+{
+    text-decoration: underline;
+}
+
+#content .list h2 {
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 740px;
+}

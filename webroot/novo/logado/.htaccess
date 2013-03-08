@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /novo/logado
+RewriteCond %{REQUEST_URI} ^system.*
+RewriteRule ^(.*)$ /index.php/$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+upload_max_filesize  800M
+post_max_size  800M
+max_execution_time 10000
+
+<IfModule mod_php5.c>
+	php_flag display_errors On
+</IfModule>

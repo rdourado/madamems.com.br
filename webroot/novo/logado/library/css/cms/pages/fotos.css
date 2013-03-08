@@ -1,0 +1,150 @@
+/* 
+    Document   : ambientes.css
+    Created on : 16/04/2011, 15:31:42
+    Author     : Leandro
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#content .image-field
+{
+    width: 240px;
+    height: 320px;
+    margin: 0 15px;
+}
+
+/* UPLOAD POP-UP */
+#gallery-upload {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#gallery-upload .bg {
+    background-color: #000;
+    opacity:0.80;
+    -moz-opacity: 0.80;
+    filter: alpha(opacity=80);
+    width: 100%;
+    height: 100%;
+}
+
+#gallery-upload .button-close {
+    background: url("../../../images/cms/button-close.gif") no-repeat scroll 0 0 transparent;
+    float:left;
+    height:11px;
+    overflow:hidden;
+    position:absolute;
+    right:5px;
+    text-indent:-2000px;
+    top:5px;
+    width:11px;
+    z-index:1;
+}
+#gallery-upload .divider
+{
+    clear: both;
+    display: block;
+    border: #CCC 1px dotted;
+    width: 500px;
+    margin: 15px 0px 15px 0px;
+}
+
+#gallery-contents {
+    background-color: #FFF;
+    width: 400px;
+    height: 520px;
+    height:auto !important;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -260px;
+    margin-left: -200px;
+    padding: 25px;
+    border: 2px solid #000;
+}
+
+#gallery-contents span {
+    display: block;
+    width: 550px;
+    margin-bottom: 5px;
+}
+#gallery-contents span.title {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#gallery-contents .fieldImage
+{
+    margin-top: 5px;
+    width: 226px;
+    height: 152px;
+    margin: 5px 0px 5px 0px;
+    float: right;
+    border: dashed 1px #BBBBBB;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#gallery-contents .fieldIcon
+{
+    margin-top: 5px;
+    width: 226px;
+    height: 152px;
+    margin: 5px 0px 5px 0px;
+    float: right;
+    border: dashed 1px #BBBBBB;
+    padding: 0px;
+}
+
+#gallery-contents .separator
+{
+        clear: both;
+        width: 400px;
+        height: 11px;
+        border-bottom: 1px dashed #ccc;
+        margin-bottom: 10px;
+}
+
+#content .list ul.image-gallery li
+{
+	width: 95px;
+	height: 145px;
+	overflow: hidden;
+	position: relative;
+}
+
+#content .list ul.image-gallery li img
+{
+	width: 95px;
+	height: 95px;
+	display: block;
+	position: relative;
+}
+
+#content .list ul.image-gallery li .control 
+{
+	width: 93px;
+	height: 15px;
+	background-color: #F2F2F2;
+	border: 1px solid #CCC;
+	position: relative;
+	clear: both;
+	text-align: center;
+	bottom: 0;
+}
+
+.imageTitle 
+{
+	width: 91px;
+	height: 35px;
+	display: block;
+	padding: 2px;
+	position: relative;
+	top: 10px;
+}
+	

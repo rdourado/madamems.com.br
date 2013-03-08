@@ -1,0 +1,175 @@
+/* 
+    Document   : logged
+    Created on : Feb 17, 2012, 11:40:35 AM
+    Author     : Tinpix <tinpix.com.br>
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+li
+{
+	list-style: none;
+}
+
+#pagination
+{
+	height: 25px;
+	display: block;
+}
+
+	#pagination div
+	{
+		width: 15px;
+		text-align: center;
+		color: black;
+		margin: 0 10px;
+		cursor: pointer;
+		display: inline;
+	}
+	
+	#pagination div.selected
+	{
+		background-color: white;
+	}
+
+.content-list li
+{
+	margin-bottom: 20px;
+}
+
+	.content-list li p
+	{
+		margin-bottom: 10px;
+	}
+	
+.coluna-preta h2
+{
+	display: block;
+	margin: 30px 0 10px 0;
+}
+
+.thumb
+{
+	width: 95px;
+	height: 95px;
+	overflow: hidden;
+}
+
+	.thumb img
+	{
+		width: 95px;
+		height: 95px;
+	}
+	
+#scrap-home, #pdf-home
+{
+	height: 300px;
+}
+
+#video
+{
+	width: 610px;
+	height: 460px;
+	background-color: black;
+}
+
+.video-thumb
+{
+	height: 25px;
+	cursor: pointer;
+	background: url(../images/ico-videos.png) no-repeat;
+	background-position: 5px;
+	padding-left: 25px;
+	padding-top: 5px;
+	clear: both;
+}
+
+	.video-thumb span
+	{
+		float: right;
+		width: 80px;
+		padding-bottom: 0;
+	}
+
+.video-thumb.selected, .video-thumb:hover
+{
+	background-color: black;
+	color: white;
+}
+
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+
+}
+
+.clear
+{
+	clear: both;
+}
+
+.ulpdf3 span
+{
+	width: 80px;
+	padding-bottom: 0;
+}
+
+.ulpdf3 li
+{
+	height: 20px;
+	clear: both;
+}
+
+.order-header
+{
+	display: inline-block;
+	margin-top: 20px;
+}
+
+#order-date
+{
+	float: right;
+	margin-right: 30px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.imageTitle
+{
+	width: 133px;
+	height: 6px;
+	text-align: center;
+	padding-top: 4px;
+	
+}
+
+.image-list ul li
+{
+	height: 138px;
+	float: left;
+	text-align: center;
+}
+
+	.image-list ul li div
+	{
+		height: 20px;
+		padding-top: 5px;
+		font-size: 10px;
+	}
+	
+	.image-list ul li .foto
+	{
+		margin-right: 0 !important;
+		margin-bottom: 0 !important;
+	}
+	
+#imageFilter
+{
+	margin: 0 0 16px 0;
+}

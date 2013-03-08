@@ -1,0 +1,525 @@
+@charset "iso-8859-1";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+:focus {outline: none;}
+body {
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+ol, ul {list-style: none;}
+
+/* GENERAL */
+body, html
+{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background-color: #444;
+}
+
+#notification
+{
+    width: 100%;
+    height: 35px;
+    margin-top: -70px;
+    background-color: #000;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #00ff00;
+    padding-top: 20px;
+    position: fixed;
+    opacity: .9;
+    z-index: 1000;
+}
+
+#tabs {
+    margin-top: 20px;
+}
+
+#tabs .disabled {
+    opacity: 0.25;
+    -moz-opacity: 0.25;
+    filter: alpha(opacity=25);
+}
+
+/* MAIN */
+#wrapper {
+    background-color: #FFF;
+    width: 998px;
+    border-left: #000 2px solid;
+    border-right: #000 2px solid;
+    height: auto !important;
+    margin: 0 auto;
+    display: table;
+}
+
+#header {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+}
+
+#header .logo {
+    width: 150px;
+    height: 70px;
+    padding-left: 50px;
+    background: url(../../images/cms/logo-negative.png) no-repeat 0 0;
+    background-position: center;
+    float: left;
+}
+
+#header .user {
+    font-size: 12px;
+    width: 300px;
+    height: 10px;
+    top: 50%;
+    float: right;
+    text-align: right;
+    padding-right: 30px;
+    position: relative;
+    margin-top: -5px;
+}
+#header .user ul { color: #CCC; }
+#header .user ul a:hover { color: #FFF; text-decoration: underline; }
+#header .user ul a, #header .user ul a:visited, #header .user ul a:active { color: #FFF; text-decoration: none; }
+#header .user ul li { border-left:1px solid #ccc; display: inline; padding-left: 5px; margin-left: 5px; }
+#header .user ul li:first-child { border-left:none; }
+
+/* CONTENT */
+#content {
+    float:left;
+    width: 740px;
+    min-height: 555px;
+    padding: 20px 20px 20px 30px;
+    position: relative;
+}
+#content h3 {
+    width: 740px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    color: #000;
+    border-bottom: #AAA 1px solid;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+
+#content .select-list {
+    float: right;
+    width: 250px;
+    height: 29px;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    margin-top: -33px;
+    border: solid 1px #F2F2F2;
+}
+
+/* MENU */
+#sideMenu {
+    float: left;
+    width: 165px;
+    margin: 20px 0px 0px 30px;
+    font-size: 11px;
+}
+#sideMenu li a {
+   text-decoration: none;
+   color: #FFF;
+   display: block;
+   padding: 10px;
+   margin-bottom: 1px;
+   background-color: #333;
+}
+#sideMenu li a:hover  {
+   background-color: #000;
+}
+#sideMenu li ul li a {
+    background: #CCC;
+    color: #000;
+    padding-left: 15px;
+}
+#sideMenu li ul li a:hover {
+    background: #BBB;
+    border-left: 2px #000 solid;
+    padding-left: 15px;
+}
+input[type=submit], button {
+    height: 25px;
+    background: url(../../images/cms/button-background.jpg) #000 repeat-x;
+    font-family: Arial !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    padding: 3px 10px 5px 10px;
+}
+input[type=submit]:hover, button:hover {
+    height: 25px;
+    background: url(../../images/cms/button-background-over.jpg) #000 repeat-x;
+    font-family: Arial !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    padding: 3px 10px 5px 10px;
+    cursor: pointer;
+}
+input[type=radio] {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    float: left;
+}
+
+/* FORM */
+#content .form {
+    width: 755px;
+    padding: 10px 0px 10px 0px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+#content .form ul.environment-relationship, #content .form ul.service-relationship {
+    margin-left: -18px;
+}
+
+#content .form ul.environment-relationship li, #content .form ul.service-relationship li {
+    width: 230px;
+    height: 69px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    float: left;
+    cursor: pointer;
+    border: 1px solid #F2F2F2;
+}
+#content .form ul.environment-relationship li.selected, #content .form ul.service-relationship li.selected {
+    background: url(../../images/cms/check.png) no-repeat 220px 54px #dceede;
+}
+
+#content .form ul.environment-relationship li img, #content .form ul.service-relationship li img {
+    float: left;
+}
+
+#content .form ul.environment-relationship li .contents, #content .form ul.service-relationship li .contents {
+    float: left;
+    padding: 10px;
+    width: 115px;
+}
+#content .form ul.environment-relationship li .contents p, #content .form ul.service-relationship li .contents p {
+    font-size: 9px;
+    margin-top: 5px;
+}
+
+#content .relationship select {
+    width: 250px !important;
+    float: left !important;
+    margin-left: 9px !important;
+    margin-bottom: 20px !important;
+    position: relative !important;
+}
+
+#content .form span.label {
+    display:block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#content .form input[type="text"], #content .form input[type="password"], #content form textarea {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    width: 410px;
+    border: #CCC 1px solid;
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+}
+#content .form input[type=radio] {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    float: left;
+}
+#content .form .options {
+    margin-top: 15px;
+}
+#content .form .options label {
+    margin-left: 5px;
+    padding: 0px;
+    line-height: 10px;
+    display: inline-block;
+}
+#content .form select {
+    width: 420px;
+    border: #CCC 1px solid;
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+}
+#content .form  #uploadifyUploader {
+    margin-top: 5px;
+}
+
+#content .field {
+    margin-top: 5px;
+    width: 400px;
+    border: #CCC 1px solid;
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+}
+#content .field ul li {
+    list-style-position: inside;
+    list-style-image: url(../img/icon-image.jpg);
+}
+#content .field ul li a
+{
+    text-decoration: none;
+}
+#content .image-field
+{
+    margin-top: 5px;
+    margin: 5px 0px 5px 0px;
+    float: right;
+    border: dashed 1px #BBBBBB;
+    padding: 0px;
+}
+
+/* NEW CONTENT BUTTON */
+#content .new-button {
+    margin-top: 20px;
+}
+
+/* LIST */
+#list-draft, #list-published
+{
+    margin-top: 20px;
+}
+
+#content .list
+{
+    width: 740px;
+    margin-top: 40px;
+}
+
+#content .list ul.image-gallery
+{
+    width: 700px;
+}
+#content .list ul.image-gallery li
+{
+    width: 133px;
+    height: 162px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#content .list ul.image-gallery li .img
+{
+    width: 133px;
+    height: 89px;
+}
+
+#content .list ul.image-gallery li .control
+{
+    width: 133px;
+    height: 16px;
+    background-color: #F2F2F2;
+    border: 1px solid #CCCCCC;
+    float: left;
+}
+#content .list ul.image-gallery li .control label
+{
+    margin: 0px;
+    padding: 4px;
+    float: left;
+    cursor: pointer;
+    position: relative;
+    color: #666666;
+    font-size: 9px;
+    width: 58px;
+    text-align: center;
+}
+#content .list ul.image-gallery li .control label:hover
+{
+    color: #000000;
+}
+
+
+#content .list li
+{
+    width: 720px;
+    height: 40px;
+    background-color: #F2F2F2;
+    margin-top: 5px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    color: #666;
+    cursor: pointer;
+}
+
+#content .list li label span
+{
+    float: left;
+    width: 120px;
+    margin: 0px !important;
+    font-weight: normal;
+}
+
+#content .list button
+{
+    border:1px solid #666666;
+    color:#333333;
+    cursor:pointer;
+    float:right;
+    font-family:Verdana,Geneva,sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    margin: 12px 12px 0px 0px;
+    height: 19px;
+    width: 70px;
+    background: none;
+    padding: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+#content .list button:hover {
+    background-color: #333;
+    color: #FFF;
+}
+#content .list li .move
+{
+    cursor: move;
+    margin: 5px 0px 0px 5px;
+}
+
+#content .list li label
+{
+    position: absolute;
+    margin: 13px;
+    text-decoration: none;
+    color: #666;
+}
+
+#content .list #list-files li label, #content .list #list-users li label
+{
+    float: right;
+    margin: 13px;
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+    position: relative !important;
+}
+
+#content .list #list-files li a, #content .list #list-users li a
+{
+    float: left;
+    margin: 13px;
+    text-decoration: none;
+    color: #666;
+}
+
+#content .list li label a
+{
+    text-decoration: none;
+    color: #666;
+}
+
+#content .list li label a:hover
+{
+    text-decoration: underline;
+}
+
+#content .list h2 {
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 740px;
+}
+
+#content .divider
+{
+    clear: both;
+    display: block;
+    border-bottom: #CCC 1px dotted;
+    width: 720px !important;
+    margin: 25px 0px 15px 0px;
+}
+
+/* GENERAL STYLES */
+.divider
+{
+    clear: both;
+    display: block;
+    border-bottom: #CCC 1px dotted;
+    width: 720px;
+    margin: 25px 0px 15px 0px;
+}
+
+.clear
+{
+    clear: both;
+    display: block;
+}
+
+#text-description_container span, #text-guide_container span {
+    margin: 0px !important;
+}
+#text-description_container, #text-guide_container {
+    padding-bottom: 15px !important;
+}
+
+#submit
+{
+	margin-top: 20px;	
+}
+
+.left
+{
+	float: left;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.file_title
+{
+	width: 480px;
+	margin-top: 17px;
+}
+
+.upload-button
+{
+	width: 150px;
+}
+
+.imageTitle
+{
+	width: 122px;
+	height: 50px;
+	text-align: center;
+	padding: 6px;
+	font-size: 9px;
+	
+	
+}
